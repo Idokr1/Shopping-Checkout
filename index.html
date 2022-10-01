@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Order Details</h1>
+    <form class="checkoutForm" name="checkoutForm">
+      <div class="item-div">
+        <label>
+          Full Name
+          <input
+            class="inputClass"
+            type="text"
+            name="fullName"
+            pattern="^[a-zA-Z]+\s{1}[a-zA-Z]+$"
+            title="There must be exactly 1 space"
+            required
+          />
+        </label>
+      </div>
+      <div class="item-div">
+        <label>
+          Purchase Price
+          <input
+            class="inputClass"
+            type="number"
+            name="purchasePrice"
+            min="1"
+            required
+          />
+        </label>
+      </div>
+      <div class="item-div">
+        <label>
+          Add Charge to Tab
+          <input type="checkbox" name="chkBx" />
+        </label>
+      </div>
+      <div class="item-div">
+        <label>
+          Credit Card Type:
+          <select name="creditCard" required>
+            <option disabled selected value>-- select an option --</option>
+            <option value="masterCard">MasterCard</option>
+            <option value="visa">Visa</option>
+            <option value="americanExpress">American Express</option>
+            <option value="discover">Discover</option>
+          </select>
+        </label>
+      </div>
+      <div class="submit-div">
+        <input type="submit" value="Buy" class="submitButton" />
+      </div>
+    </form>
+  </body>
+</html>
