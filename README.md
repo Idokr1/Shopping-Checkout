@@ -1,6 +1,6 @@
 # Shopping Checkout App
 
-A simple and easy to use HTML & JS based shopping checkout application.
+A simple and easy to use HTML & JavaScript based shopping checkout application.
 
 ## Features
 - HTML validations
