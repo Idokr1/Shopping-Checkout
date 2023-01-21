@@ -12,4 +12,4 @@ A simple and easy to use HTML & JavaScript based shopping checkout application.
 - CSS
 
 ## Shopping Checkout Page:
-https://idokr1.github.io/Shopping-Checkout/
+https://idokr1.github.io/Shopping-Checkout
